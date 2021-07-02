@@ -29,7 +29,7 @@ def pwned_api_check(password):
 def main(pswd):
     counted = pwned_api_check(pswd)
     if counted:
-        print(f'Your Password ({pswd}) was found {counted} times hacked!!')
+        print(f'Your Password ({pswd}) was found {counted} times!!')
         print('Change your password immediately!')
     else:
         print(f'{pswd} was not found.')
