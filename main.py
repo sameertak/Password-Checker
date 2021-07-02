@@ -36,5 +36,6 @@ def main(pswd):
         print('Carry on!')
 
 
-get_password = input("Enter Your Password: ")
-main(get_password)
+if __name__ == '__main__':
+    get_password = input("Enter Your Password: ")
+    main(get_password)
